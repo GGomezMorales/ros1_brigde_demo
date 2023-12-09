@@ -1,8 +1,12 @@
 FROM ros:noetic-ros-base-focal
 
+RUN mkdir -p /ros1_ws/src
+
 RUN apt-get update && apt-get install -y \
-    ros-noetic-rosbridge-server \
-    ros-noetic-rosbridge-suite \
-    && rm -rf /var/lib/apt/lists/*
+    ros-noetic-teleop-twist-keyboard
 
 RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+
+COPY ./autostart.sh /
+RUN chmod +x /autostart.sh
+ENTRYPOINT /autostart.sh
