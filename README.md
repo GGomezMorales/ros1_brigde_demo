@@ -57,4 +57,7 @@ In terminal #1, #2 and #3, run the following command to access the docker contai
 
 ## Demo
 
-[Demo](.media/demo.mp4)
+https://github.com/GGomezMorales/ros1_brigde_demo/assets/123125407/1e991f79-b527-47c7-8e65-c41a5659b219
+
+
+
