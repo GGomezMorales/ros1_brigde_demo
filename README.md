@@ -8,7 +8,7 @@ This package is capable of bridging the stantard ROS interfaces (messages/servic
 
 To utilize the bridge with custom message types, it becomes necessary to construct the package from its source code. Additionally, the custom types need to be incorporated into separate workspaces for both ROS 1 and ROS 2. Specifically regarding services, explicit bridging is required between ROS 2 and ROS 1, as well as between ROS 1 and ROS 2.
 
-## Demo
+## Running
 
 In this demo, the 'ros1_bridge' package will be used to establish a network bridge to teleoperate 'turtlesim', running in ROS2, from ROS1. This requires using the 'turtlesim' package in ROS2 Foxy (`ros-foxy-turtlesim`) and the teleoperation package in ROS1 Noetic (`ros-noetic-teleop-twist-keyboard`). To perform this, follow these steps:
 
@@ -54,3 +54,7 @@ In terminal #1, #2 and #3, run the following command to access the docker contai
   ```bash
   rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=turtle1/cmd_vel
   ```
+
+## Demo
+
+[Demo](.media/demo.mp4)
