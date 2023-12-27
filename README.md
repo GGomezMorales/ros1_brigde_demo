@@ -33,7 +33,7 @@ For custom message types, build the package from source and incorporate these ty
        ```
    - Terminal #2:
        ```bash
-       `ros2 run turtlesim turtlesim_node
+       ros2 run turtlesim turtlesim_node
        ```
    - Terminal #3:
        ```bash
