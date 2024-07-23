@@ -29,7 +29,7 @@ For custom message types, build the package from source and incorporate these ty
    Inside the container terminals:
    - Terminal #1:
        ```bash
-       ros2 run ros1_bridge dynamic_bridge
+       ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
        ```
    - Terminal #2:
        ```bash
