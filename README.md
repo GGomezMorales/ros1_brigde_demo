@@ -34,7 +34,7 @@ For custom message types, build the package from source and incorporate these ty
 
    - Terminal #1:
    
-     If you want to run the bridge with all topics . You can use the following command:
+     If you want to run the bridge with all topics. You can use the following command:
 
      ```bash
      # Use ros2 run ros1_bridge dynamic_bridge --help to see options
