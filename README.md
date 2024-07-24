@@ -9,17 +9,20 @@ For custom message types, build the package from source and incorporate these ty
    ```bash
    git clone https://github.com/GGomezMorales/ros1_brigde_demo.git
    ```
+
 2. Navigate to the Repository:
 
    ```bash
    cd ros1_brigde_demo
    ```
+
 3. Build and Run the Docker Image:
 
    ```bash
    ./scripts/build.sh
    ./scripts/run.sh
    ```
+
 4. Access the Docker Container:
    Open three terminals and run in each:
 
@@ -30,6 +33,7 @@ For custom message types, build the package from source and incorporate these ty
    Inside the container terminals:
 
    - Terminal #1:
+   
      If you want to run the bridge with all topics . You can use the following command:
 
      ```bash
@@ -48,12 +52,14 @@ For custom message types, build the package from source and incorporate these ty
      source /opt/ros/foxy/setup.bash
      ros2 run ros1_bridge parameter_bridge
      ```
+
    - Terminal #2:
 
      ```bash
      source /opt/ros/foxy/setup.bash
      ros2 run turtlesim turtlesim_node
      ```
+
    - Terminal #3:
 
      ```bash
